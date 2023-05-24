@@ -129,7 +129,7 @@ class _MeetingPage3State extends State<MeetingPage3> {
                   ),
                 ),
                 ElevatedButton(
-                  child: Text('다음'),
+                  child: Text('다음',style: TextStyle(fontWeight: FontWeight.w600,fontSize: 18,fontFamily: 'SUIT'),),
                   style: TextButton.styleFrom(
                     fixedSize: Size(342, 56),
                     elevation: 0,
