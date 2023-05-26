@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:new_meeting_page_3/buttons/moim_rules.dart';
 import 'package:new_meeting_page_3/buttons/moim_term_button.dart';
 import 'buttons/moim_cycle_button.dart';
+import 'buttons/moim_rules.dart';
 import 'const/colors.dart';
 
 class MeetingPage3 extends StatefulWidget {
@@ -124,6 +125,7 @@ class _MeetingPage3State extends State<MeetingPage3> {
                           height: 16,
                         ),
                         MoimRules(),
+
                       ],
                     ),
                   ),
