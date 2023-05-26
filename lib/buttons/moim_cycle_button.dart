@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../const/colors.dart';
 import 'choice_cycle/choice_cycle.dart';
 
