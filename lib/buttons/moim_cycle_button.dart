@@ -10,7 +10,7 @@ class MoimCycleButton extends StatefulWidget {
 }
 
 class _MoimCycleButtonState extends State<MoimCycleButton> {
-  int ?newsAgency;
+  int? newsAgency;
 
   @override
   Widget build(BuildContext context) {
@@ -20,14 +20,22 @@ class _MoimCycleButtonState extends State<MoimCycleButton> {
       child: ElevatedButton(
         child: Container(
             alignment: Alignment.centerLeft,
-            child: Text('모임 주기를 선택해주세요')),
+            child: Text(
+              '모임 주기를 선택해주세요',
+              style: TextStyle(
+                fontSize: 16,
+                fontFamily: 'SUIT',
+                fontWeight: FontWeight.w500,
+                color: MIXIN_BLACK_5,
+              ),
+            )),
         style: ElevatedButton.styleFrom(
           elevation: 0,
-          backgroundColor: MIXIN_WHITE,
-          foregroundColor: MIXIN_BLACK_4,
+          backgroundColor: Color(0xFFFFFFF),
+          foregroundColor: MIXIN_BLACK_5,
           shape: RoundedRectangleBorder(
             side: BorderSide(
-              color: MIXIN_BLACK_4,
+              color: MIXIN_BLACK_5,
               width: 1.0,
             ),
             borderRadius: BorderRadius.circular(8),
@@ -41,7 +49,6 @@ class _MoimCycleButtonState extends State<MoimCycleButton> {
                 height: 370,
                 width: double.infinity,
                 child: Column(
-
                   children: [
                     ChoiceCycle(),
                     Expanded(
@@ -55,8 +62,7 @@ class _MoimCycleButtonState extends State<MoimCycleButton> {
                           ),
                           onPressed: () async {
                             Navigator.of(context).pop();
-                            setState(() {
-                            });
+                            setState(() {});
                             print(newsAgency);
                           },
                           child: Container(

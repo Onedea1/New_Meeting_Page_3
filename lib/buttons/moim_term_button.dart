@@ -29,7 +29,7 @@ class _MoimTermButtonState extends State<MoimTermButton> {
                   fontWeight: FontWeight.w500,
                   fontSize: 16,
                   fontFamily: 'SUIT',
-                  color: MIXIN_BLACK_4),
+                  color: MIXIN_BLACK_5),
             ),
           ),
           Padding(
@@ -93,7 +93,7 @@ class _MoimTermButtonState extends State<MoimTermButton> {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(8),
         border: Border.all(
-          color: MIXIN_BLACK_4,
+          color: MIXIN_BLACK_5,
           width: 1.5,
         ),
       ),

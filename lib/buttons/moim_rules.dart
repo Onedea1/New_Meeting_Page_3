@@ -27,24 +27,24 @@ class _MoimRulesState extends State<MoimRules> {
           borderRadius: BorderRadius.all(Radius.circular(8.0)),
         ),
         enabledBorder: const OutlineInputBorder(
-          borderSide: BorderSide(color: MIXIN_BLACK_4, width: 1.0),
+          borderSide: BorderSide(color: MIXIN_BLACK_5, width: 1.0),
           borderRadius: BorderRadius.all(Radius.circular(8.0)),
         ),
         focusedBorder: const OutlineInputBorder(
-          borderSide: BorderSide(color: MIXIN_BLACK_4, width: 1.0),
+          borderSide: BorderSide(color: MIXIN_BLACK_5, width: 1.0),
           borderRadius: BorderRadius.all(Radius.circular(8.0)),
         ),
         hintStyle: TextStyle(
           fontSize: 16,
           fontFamily: 'SUIT',
           fontWeight: FontWeight.w500,
-          color: MIXIN_BLACK_4,
+          color: MIXIN_BLACK_5,
         ),
         counterStyle: TextStyle(
           fontSize: 12,
           fontWeight: FontWeight.w500,
           fontFamily: 'SUIT',
-          color: Color(0xFFCED0D5),
+          color: MIXIN_BLACK_5,
         ),
       ),
       maxLength: 80,

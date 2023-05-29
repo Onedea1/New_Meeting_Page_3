@@ -16,7 +16,7 @@ class _MeetingPage3State extends State<MeetingPage3> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFF2F2F2),
+      backgroundColor: Color(0xFFFFFFFF),
       appBar: AppBar(
         title: Text(
           '모임 만들기',
@@ -35,7 +35,7 @@ class _MeetingPage3State extends State<MeetingPage3> {
           ),
           onPressed: () {},
         ),
-        backgroundColor: Color(0xFFF2F2F2),
+        backgroundColor: Color(0xFFFFFFFF),
         elevation: 0,
       ),
       body: SingleChildScrollView(
